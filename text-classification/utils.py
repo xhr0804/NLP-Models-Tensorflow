@@ -5,6 +5,8 @@ import collections
 import random
 from sklearn import metrics
 from nltk.corpus import stopwords
+import nltk
+nltk.download('stopwords')
 
 english_stopwords = stopwords.words('english')
 
